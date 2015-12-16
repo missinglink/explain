@@ -1,0 +1,82 @@
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match": {
+                "name.default": {
+                  "analyzer": "peliasOneEdgeGram",
+                  "query": "peter johnson"
+                }
+              }
+            }
+          ],
+          "should": [
+            {
+              "function_score": {
+                "query": {
+                  "match": {
+                    "name.default": {
+                      "analyzer": "standard",
+                      "boost": 20,
+                      "query": "peter johnson"
+                    }
+                  }
+                },
+                "max_boost": 1,
+                "functions": [
+                  {
+                    "field_value_factor": {
+                      "modifier": "log1p",
+                      "field": "popularity"
+                    },
+                    "weight": 1
+                  }
+                ],
+                "score_mode": "first",
+                "boost_mode": "replace",
+                "filter": {
+                  "exists": {
+                    "field": "popularity"
+                  }
+                }
+              }
+            },
+            {
+              "function_score": {
+                "query": {
+                  "match": {
+                    "name.default": {
+                      "analyzer": "standard",
+                      "boost": 20,
+                      "query": "peter johnson"
+                    }
+                  }
+                },
+                "max_boost": 1,
+                "functions": [
+                  {
+                    "field_value_factor": {
+                      "modifier": "log1p",
+                      "field": "population"
+                    },
+                    "weight": 2
+                  }
+                ],
+                "score_mode": "first",
+                "boost_mode": "replace",
+                "filter": {
+                  "exists": {
+                    "field": "population"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

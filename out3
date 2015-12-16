@@ -1,0 +1,250 @@
+ [10.429148] sum of:
+2 '------' 1.6209857 '-----' 'name.default' '"aa"' '------'
+   [1.6209857] score(freq=1.0)
+    [0.39676985] queryWeight
+     [8.170912] IDF
+     [0.048558824] queryNorm
+    [4.085456] fieldWeight
+     [1] TF
+     [8.170912] IDF
+     [0.5] fieldNorm
+  [8.808162] function score
+     [4.404081] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [9.099761] sum of:
+2 '------' 3.2902868 '-----' 'name.default' '"aa"' '------'
+   [3.2902868] score(freq=1.0)
+    [0.40234753] queryWeight
+     [8.177723] IDF
+     [0.049200438] queryNorm
+    [8.177723] fieldWeight
+     [1] TF
+     [8.177723] IDF
+     [1] fieldNorm
+  [5.8094745] function score
+3 '------' 3.2902868 '-----' 'name.default' '"aa"' '------'
+    [3.2902868] score(freq=1.0)
+     [0.40234753] queryWeight
+      [8.177723] IDF
+      [0.049200438] queryNorm
+     [8.177723] fieldWeight
+      [1] TF
+      [8.177723] IDF
+      [1] fieldNorm
+     [0.8828219] Function for field center_point:
+      [0.8828219] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([41.404378, -75.668126](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [7.484343] sum of:
+2 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+   [3.323144] score(freq=1.0)
+    [0.40452364] queryWeight
+     [8.214956] IDF
+     [0.049242336] queryNorm
+    [8.214956] fieldWeight
+     [1] TF
+     [8.214956] IDF
+     [1] fieldNorm
+  [4.161199] function score
+3 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+    [3.323144] score(freq=1.0)
+     [0.40452364] queryWeight
+      [8.214956] IDF
+      [0.049242336] queryNorm
+     [8.214956] fieldWeight
+      [1] TF
+      [8.214956] IDF
+      [1] fieldNorm
+     [0.6260937] Function for field center_point:
+      [0.6260937] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([39.029713, -76.505493](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.8802643] sum of:
+2 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+   [3.323144] score(freq=1.0)
+    [0.40452364] queryWeight
+     [8.214956] IDF
+     [0.049242336] queryNorm
+    [8.214956] fieldWeight
+     [1] TF
+     [8.214956] IDF
+     [1] fieldNorm
+  [3.5571203] function score
+3 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+    [3.323144] score(freq=1.0)
+     [0.40452364] queryWeight
+      [8.214956] IDF
+      [0.049242336] queryNorm
+     [8.214956] fieldWeight
+      [1] TF
+      [8.214956] IDF
+      [1] fieldNorm
+     [0.53520405] Function for field center_point:
+      [0.53520405] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.908375, -77.063995](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.7668657] sum of:
+2 '------' 3.3257883 '-----' 'name.default' '"aa"' '------'
+   [3.3257883] score(freq=1.0)
+    [0.4054011] queryWeight
+     [8.203698] IDF
+     [0.049416874] queryNorm
+    [8.203698] fieldWeight
+     [1] TF
+     [8.203698] IDF
+     [1] fieldNorm
+  [3.4410775] function score
+3 '------' 3.3257883 '-----' 'name.default' '"aa"' '------'
+    [3.3257883] score(freq=1.0)
+     [0.4054011] queryWeight
+      [8.203698] IDF
+      [0.049416874] queryNorm
+     [8.203698] fieldWeight
+      [1] TF
+      [8.203698] IDF
+      [1] fieldNorm
+     [0.5173326] Function for field center_point:
+      [0.5173326] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.885402, -77.172539](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.763464] sum of:
+2 '------' 3.3197205 '-----' 'name.default' '"aa"' '------'
+   [3.3197205] score(freq=1.0)
+    [0.40651822] queryWeight
+     [8.166228] IDF
+     [0.049780414] queryNorm
+    [8.166228] fieldWeight
+     [1] TF
+     [8.166228] IDF
+     [1] fieldNorm
+  [3.4437432] function score
+3 '------' 3.3197205 '-----' 'name.default' '"aa"' '------'
+    [3.3197205] score(freq=1.0)
+     [0.40651822] queryWeight
+      [8.166228] IDF
+      [0.049780414] queryNorm
+     [8.166228] fieldWeight
+      [1] TF
+      [8.166228] IDF
+      [1] fieldNorm
+     [0.5186797] Function for field center_point:
+      [0.5186797] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.886267, -77.163499](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.7586527] sum of:
+2 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+   [3.323144] score(freq=1.0)
+    [0.40452364] queryWeight
+     [8.214956] IDF
+     [0.049242336] queryNorm
+    [8.214956] fieldWeight
+     [1] TF
+     [8.214956] IDF
+     [1] fieldNorm
+  [3.4355087] function score
+3 '------' 3.323144 '-----' 'name.default' '"aa"' '------'
+    [3.323144] score(freq=1.0)
+     [0.40452364] queryWeight
+      [8.214956] IDF
+      [0.049242336] queryNorm
+     [8.214956] fieldWeight
+      [1] TF
+      [8.214956] IDF
+      [1] fieldNorm
+     [0.5169064] Function for field center_point:
+      [0.5169064] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.883408, -77.173655](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.6965036] sum of:
+2 '------' 3.2966042 '-----' 'name.default' '"aa"' '------'
+   [3.2966042] score(freq=1.0)
+    [0.402626] queryWeight
+     [8.1877575] IDF
+     [0.04917415] queryNorm
+    [8.1877575] fieldWeight
+     [1] TF
+     [8.1877575] IDF
+     [1] fieldNorm
+  [3.3998992] function score
+3 '------' 3.2966042 '-----' 'name.default' '"aa"' '------'
+    [3.2966042] score(freq=1.0)
+     [0.402626] queryWeight
+      [8.1877575] IDF
+      [0.04917415] queryNorm
+     [8.1877575] fieldWeight
+      [1] TF
+      [8.1877575] IDF
+      [1] fieldNorm
+     [0.5156669] Function for field center_point:
+      [0.5156669] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.879733, -77.179052](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [6.6092577] sum of:
+2 '------' 3.2419715 '-----' 'name.default' '"aa"' '------'
+   [3.2419715] score(freq=1.0)
+    [0.39676985] queryWeight
+     [8.170912] IDF
+     [0.048558824] queryNorm
+    [8.170912] fieldWeight
+     [1] TF
+     [8.170912] IDF
+     [1] fieldNorm
+  [3.3672862] function score
+3 '------' 3.2419715 '-----' 'name.default' '"aa"' '------'
+    [3.2419715] score(freq=1.0)
+     [0.39676985] queryWeight
+      [8.170912] IDF
+      [0.048558824] queryNorm
+     [8.170912] fieldWeight
+      [1] TF
+      [8.170912] IDF
+      [1] fieldNorm
+     [0.5193269] Function for field center_point:
+      [0.5193269] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([38.882947, -77.155349](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)
+ [5.308181] sum of:
+2 '------' 3.2419715 '-----' 'name.default' '"aa"' '------'
+   [3.2419715] score(freq=1.0)
+    [0.39676985] queryWeight
+     [8.170912] IDF
+     [0.048558824] queryNorm
+    [8.170912] fieldWeight
+     [1] TF
+     [8.170912] IDF
+     [1] fieldNorm
+  [2.066209] function score
+3 '------' 3.2419715 '-----' 'name.default' '"aa"' '------'
+    [3.2419715] score(freq=1.0)
+     [0.39676985] queryWeight
+      [8.170912] IDF
+      [0.048558824] queryNorm
+     [8.170912] fieldWeight
+      [1] TF
+      [8.170912] IDF
+      [1] fieldNorm
+     [0.31866553] Function for field center_point:
+      [0.31866553] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([44.240094, -76.527941](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.5] coord(2/4)

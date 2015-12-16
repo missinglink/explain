@@ -1,0 +1,478 @@
+ [17.683105] sum of:
+  [5.1651497] sum of:
+   ------ name.default "sa" ------
+    [0.7329756] score(freq=1.0)
+     [0.16136105] queryWeight
+      [4.5424566] IDF
+      [0.03552286] queryNorm
+     [4.5424566] fieldWeight
+      [1] TF
+      [4.5424566] IDF
+      [1] fieldNorm
+   ------ name.default "sal" ------
+    [1.6432106] score(freq=1.0)
+     [0.24160203] queryWeight
+      [6.8013115] IDF
+      [0.03552286] queryNorm
+     [6.8013115] fieldWeight
+      [1] TF
+      [6.8013115] IDF
+      [1] fieldNorm
+   ------ name.default "salt" ------
+    [2.788963] score(freq=1.0)
+     [0.31475696] queryWeight
+      [8.860687] IDF
+      [0.03552286] queryNorm
+     [8.860687] fieldWeight
+      [1] TF
+      [8.860687] IDF
+      [1] fieldNorm
+  ------ phrase.default "salt" ------
+   [3.5641184] score(freq=1.0)
+    [0.35581973] queryWeight
+     [10.016641] IDF
+     [0.03552286] queryNorm
+    [10.016641] fieldWeight
+     [1] TF
+     [10.016641] IDF
+     [1] fieldNorm
+  [8.953837] function score
+     [4.4769187] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [17.619843] sum of:
+  [5.1904755] sum of:
+   ------ name.default "sa" ------
+    [0.7411769] score(freq=1.0)
+     [0.16267146] queryWeight
+      [4.556281] IDF
+      [0.035702683] queryNorm
+     [4.556281] fieldWeight
+      [1] TF
+      [4.556281] IDF
+      [1] fieldNorm
+   ------ name.default "sal" ------
+    [1.6537728] score(freq=1.0)
+     [0.24298997] queryWeight
+      [6.80593] IDF
+      [0.035702683] queryNorm
+     [6.80593] fieldWeight
+      [1] TF
+      [6.80593] IDF
+      [1] fieldNorm
+   ------ name.default "salt" ------
+    [2.7955258] score(freq=1.0)
+     [0.3159237] queryWeight
+      [8.848738] IDF
+      [0.035702683] queryNorm
+     [8.848738] fieldWeight
+      [1] TF
+      [8.848738] IDF
+      [1] fieldNorm
+  ------ phrase.default "salt" ------
+   [3.4708774] score(freq=1.0)
+    [0.3520222] queryWeight
+     [9.859825] IDF
+     [0.035702683] queryNorm
+    [9.859825] fieldWeight
+     [1] TF
+     [9.859825] IDF
+     [1] fieldNorm
+  [8.958488] function score
+     [4.479244] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [16.390018] sum of:
+  [2.5825748] sum of:
+   ------ name.default "sa" ------
+    [0.3664878] score(freq=1.0)
+     [0.16136105] queryWeight
+      [4.5424566] IDF
+      [0.03552286] queryNorm
+     [2.2712283] fieldWeight
+      [1] TF
+      [4.5424566] IDF
+      [0.5] fieldNorm
+   ------ name.default "sal" ------
+    [0.8216053] score(freq=1.0)
+     [0.24160203] queryWeight
+      [6.8013115] IDF
+      [0.03552286] queryNorm
+     [3.4006557] fieldWeight
+      [1] TF
+      [6.8013115] IDF
+      [0.5] fieldNorm
+   ------ name.default "salt" ------
+    [1.3944815] score(freq=1.0)
+     [0.31475696] queryWeight
+      [8.860687] IDF
+      [0.03552286] queryNorm
+     [4.4303436] fieldWeight
+      [1] TF
+      [8.860687] IDF
+      [0.5] fieldNorm
+  ------ phrase.default "salt" ------
+   [1.7820592] score(freq=1.0)
+    [0.35581973] queryWeight
+     [10.016641] IDF
+     [0.03552286] queryNorm
+    [5.0083203] fieldWeight
+     [1] TF
+     [10.016641] IDF
+     [0.5] fieldNorm
+  [12.025384] function score
+     [6.012692] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [15.238352] sum of:
+  [3.2290556] sum of:
+   ------ name.default "sa" ------
+    [0.45681936] score(freq=1.0)
+     [0.16133766] queryWeight
+      [4.5303183] IDF
+      [0.035612874] queryNorm
+     [2.831449] fieldWeight
+      [1] TF
+      [4.5303183] IDF
+      [0.625] fieldNorm
+   ------ name.default "sal" ------
+    [1.0236943] score(freq=1.0)
+     [0.24151753] queryWeight
+      [6.781748] IDF
+      [0.035612874] queryNorm
+     [4.238592] fieldWeight
+      [1] TF
+      [6.781748] IDF
+      [0.625] fieldNorm
+   ------ name.default "salt" ------
+    [1.7485421] score(freq=1.0)
+     [0.31564692] queryWeight
+      [8.863281] IDF
+      [0.035612874] queryNorm
+     [5.539551] fieldWeight
+      [1] TF
+      [8.863281] IDF
+      [0.625] fieldNorm
+  ------ phrase.default "salt" ------
+   [2.2010558] score(freq=1.0)
+    [0.3541433] queryWeight
+     [9.944249] IDF
+     [0.035612874] queryNorm
+    [6.2151556] fieldWeight
+     [1] TF
+     [9.944249] IDF
+     [0.625] fieldNorm
+  [9.808241] function score
+     [4.9041204] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [14.909014] sum of:
+  [2.6013935] sum of:
+   ------ name.default "sa" ------
+    [0.36837807] score(freq=1.0)
+     [0.16179487] queryWeight
+      [4.553643] IDF
+      [0.03553086] queryNorm
+     [2.2768216] fieldWeight
+      [1] TF
+      [4.553643] IDF
+      [0.5] fieldNorm
+   ------ name.default "sal" ------
+    [0.8262108] score(freq=1.0)
+     [0.24230552] queryWeight
+      [6.819579] IDF
+      [0.03553086] queryNorm
+     [3.4097896] fieldWeight
+      [1] TF
+      [6.819579] IDF
+      [0.5] fieldNorm
+   ------ name.default "salt" ------
+    [1.4068046] score(freq=1.0)
+     [0.31618026] queryWeight
+      [8.89875] IDF
+      [0.03553086] queryNorm
+     [4.449375] fieldWeight
+      [1] TF
+      [8.89875] IDF
+      [0.5] fieldNorm
+  ------ phrase.default "salt" ------
+   [1.7665384] score(freq=1.0)
+    [0.35430673] queryWeight
+     [9.971803] IDF
+     [0.03553086] queryNorm
+    [4.9859014] fieldWeight
+     [1] TF
+     [9.971803] IDF
+     [0.5] fieldNorm
+  [10.541082] function score
+     [5.270541] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [13.743439] sum of:
+  [5.1664896] sum of:
+   ------ name.default "sa" ------
+    [0.73091096] score(freq=1.0)
+     [0.16133766] queryWeight
+      [4.5303183] IDF
+      [0.035612874] queryNorm
+     [4.5303183] fieldWeight
+      [1] TF
+      [4.5303183] IDF
+      [1] fieldNorm
+   ------ name.default "sal" ------
+    [1.637911] score(freq=1.0)
+     [0.24151753] queryWeight
+      [6.781748] IDF
+      [0.035612874] queryNorm
+     [6.781748] fieldWeight
+      [1] TF
+      [6.781748] IDF
+      [1] fieldNorm
+   ------ name.default "salt" ------
+    [2.7976675] score(freq=1.0)
+     [0.31564692] queryWeight
+      [8.863281] IDF
+      [0.035612874] queryNorm
+     [8.863281] fieldWeight
+      [1] TF
+      [8.863281] IDF
+      [1] fieldNorm
+  ------ phrase.default "salt" ------
+   [3.5216892] score(freq=1.0)
+    [0.3541433] queryWeight
+     [9.944249] IDF
+     [0.035612874] queryNorm
+    [9.944249] fieldWeight
+     [1] TF
+     [9.944249] IDF
+     [1] fieldNorm
+  [5.0552597] function score
+     [2.5276299] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [13.11112] sum of:
+  [2.5825748] sum of:
+   ------ name.default "sa" ------
+    [0.3664878] score(freq=1.0)
+     [0.16136105] queryWeight
+      [4.5424566] IDF
+      [0.03552286] queryNorm
+     [2.2712283] fieldWeight
+      [1] TF
+      [4.5424566] IDF
+      [0.5] fieldNorm
+   ------ name.default "sal" ------
+    [0.8216053] score(freq=1.0)
+     [0.24160203] queryWeight
+      [6.8013115] IDF
+      [0.03552286] queryNorm
+     [3.4006557] fieldWeight
+      [1] TF
+      [6.8013115] IDF
+      [0.5] fieldNorm
+   ------ name.default "salt" ------
+    [1.3944815] score(freq=1.0)
+     [0.31475696] queryWeight
+      [8.860687] IDF
+      [0.03552286] queryNorm
+     [4.4303436] fieldWeight
+      [1] TF
+      [8.860687] IDF
+      [0.5] fieldNorm
+  ------ phrase.default "salt" ------
+   [1.7820592] score(freq=1.0)
+    [0.35581973] queryWeight
+     [10.016641] IDF
+     [0.03552286] queryNorm
+    [5.0083203] fieldWeight
+     [1] TF
+     [10.016641] IDF
+     [0.5] fieldNorm
+  [8.746487] function score
+     [4.3732433] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [12.793541] sum of:
+  [2.598025] sum of:
+   ------ name.default "sa" ------
+    [0.36540517] score(freq=1.0)
+     [0.16144453] queryWeight
+      [4.526696] IDF
+      [0.03566498] queryNorm
+     [2.263348] fieldWeight
+      [1] TF
+      [4.526696] IDF
+      [0.5] fieldNorm
+   ------ name.default "sal" ------
+    [0.82107097] score(freq=1.0)
+     [0.24200611] queryWeight
+      [6.785539] IDF
+      [0.03566498] queryNorm
+     [3.3927696] fieldWeight
+      [1] TF
+      [6.785539] IDF
+      [0.5] fieldNorm
+   ------ name.default "salt" ------
+    [1.411549] score(freq=1.0)
+     [0.31731015] queryWeight
+      [8.896967] IDF
+      [0.03566498] queryNorm
+     [4.4484835] fieldWeight
+      [1] TF
+      [8.896967] IDF
+      [0.5] fieldNorm
+  ------ phrase.default "salt" ------
+   [1.7699156] score(freq=1.0)
+    [0.35531396] queryWeight
+     [9.962544] IDF
+     [0.03566498] queryNorm
+    [4.981272] fieldWeight
+     [1] TF
+     [9.962544] IDF
+     [0.5] fieldNorm
+  [8.4256] function score
+     [4.2128] log1p(doc['population'].value * factor=1.0)
+     [2] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [11.893866] sum of:
+  [3.2218914] sum of:
+   ------ name.default "sa" ------
+    [0.45693275] score(freq=1.0)
+     [0.16085656] queryWeight
+      [4.544996] IDF
+      [0.035392016] queryNorm
+     [2.8406224] fieldWeight
+      [1] TF
+      [4.544996] IDF
+      [0.625] fieldNorm
+   ------ name.default "sal" ------
+    [1.0250181] score(freq=1.0)
+     [0.24092308] queryWeight
+      [6.807272] IDF
+      [0.035392016] queryNorm
+     [4.254545] fieldWeight
+      [1] TF
+      [6.807272] IDF
+      [0.625] fieldNorm
+   ------ name.default "salt" ------
+    [1.7399404] score(freq=1.0)
+     [0.3138917] queryWeight
+      [8.868998] IDF
+      [0.035392016] queryNorm
+     [5.5431232] fieldWeight
+      [1] TF
+      [8.868998] IDF
+      [0.625] fieldNorm
+  ------ phrase.default "salt" ------
+   [2.228191] score(freq=1.0)
+    [0.355213] queryWeight
+     [10.036529] IDF
+     [0.035392016] queryNorm
+    [6.2728305] fieldWeight
+     [1] TF
+     [10.036529] IDF
+     [0.625] fieldNorm
+  [6.443783] function score
+   [3.2218914] sum of:
+    ------ name.default "sa" ------
+     [0.45693275] score(freq=1.0)
+      [0.16085656] queryWeight
+       [4.544996] IDF
+       [0.035392016] queryNorm
+      [2.8406224] fieldWeight
+       [1] TF
+       [4.544996] IDF
+       [0.625] fieldNorm
+    ------ name.default "sal" ------
+     [1.0250181] score(freq=1.0)
+      [0.24092308] queryWeight
+       [6.807272] IDF
+       [0.035392016] queryNorm
+      [4.254545] fieldWeight
+       [1] TF
+       [6.807272] IDF
+       [0.625] fieldNorm
+    ------ name.default "salt" ------
+     [1.7399404] score(freq=1.0)
+      [0.3138917] queryWeight
+       [8.868998] IDF
+       [0.035392016] queryNorm
+      [5.5431232] fieldWeight
+       [1] TF
+       [8.868998] IDF
+       [0.625] fieldNorm
+     [1] Function for field center_point:
+      [1] max(0.0, ((500000.0 - MIN of: [Math.max(arcDistance([41.247872, -73.860136](=doc value),[40.744243, -73.990342](=origin)) - 100000.0(=offset), 0)])/500000.0)
+     [2] weight
+    [3.4028235e+38] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)
+ [11.253245] sum of:
+  [4.3711104] sum of:
+   ------ name.default "s" ------
+    [1.7821045] score(freq=1.0)
+     [0.35552448] queryWeight
+      [10.025214] IDF
+      [0.03546303] queryNorm
+     [5.012607] fieldWeight
+      [1] TF
+      [10.025214] IDF
+      [0.5] fieldNorm
+   ------ name.default "sa" ------
+    [0.36789697] score(freq=1.0)
+     [0.16153477] queryWeight
+      [4.555019] IDF
+      [0.03546303] queryNorm
+     [2.2775095] fieldWeight
+      [1] TF
+      [4.555019] IDF
+      [0.5] fieldNorm
+   ------ name.default "sal" ------
+    [0.8234907] score(freq=1.0)
+     [0.2416753] queryWeight
+      [6.8148518] IDF
+      [0.03546303] queryNorm
+     [3.4074259] fieldWeight
+      [1] TF
+      [6.8148518] IDF
+      [0.5] fieldNorm
+   ------ name.default "salt" ------
+    [1.3976183] score(freq=1.0)
+     [0.3148453] queryWeight
+      [8.878127] IDF
+      [0.03546303] queryNorm
+     [4.4390635] fieldWeight
+      [1] TF
+      [8.878127] IDF
+      [0.5] fieldNorm
+  ------ phrase.default "salt" ------
+   [1.785656] score(freq=1.0)
+    [0.35587856] queryWeight
+     [10.035198] IDF
+     [0.03546303] queryNorm
+    [5.017599] fieldWeight
+     [1] TF
+     [10.035198] IDF
+     [0.5] fieldNorm
+  [5.096479] function score
+     [5.096479] log1p(doc['popularity'].value * factor=1.0)
+     [1] weight
+    [20] maxBoost
+   [1] queryBoost
+ [0.6] coord(3/5)

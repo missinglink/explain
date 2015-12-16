@@ -1,0 +1,318 @@
+ value 0.28481585
+ description product of:
+ ----
+ value 0.8544475
+ description sum of:
+ ----
+  value 0.8544475
+  description sum of:
+  ----
+   value 0.31276917
+   description sum of:
+   ----
+    value 0.04474403
+    description weight(name.default:pe in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.04474403
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.016270604
+      description queryWeight, product of:
+      ----
+       value 5.499984
+       description idf(docFreq=23952, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 2.749992
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 5.499984
+       description idf(docFreq=23952, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.07816114
+    description weight(name.default:pet in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.07816114
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.02150461
+      description queryWeight, product of:
+      ----
+       value 7.269245
+       description idf(docFreq=4082, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 3.6346226
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 7.269245
+       description idf(docFreq=4082, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.09427386
+    description weight(name.default:pete in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.09427386
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.023617383
+      description queryWeight, product of:
+      ----
+       value 7.98343
+       description idf(docFreq=1998, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 3.991715
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 7.98343
+       description idf(docFreq=1998, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.09559016
+    description weight(name.default:peter in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.09559016
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.02378169
+      description queryWeight, product of:
+      ----
+       value 8.038971
+       description idf(docFreq=1890, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 4.0194855
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 8.038971
+       description idf(docFreq=1890, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+   value 0.5416783
+   description sum of:
+   ----
+    value 0.05030286
+    description weight(name.default:jo in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.05030286
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.017251723
+      description queryWeight, product of:
+      ----
+       value 5.831633
+       description idf(docFreq=17191, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 2.9158165
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 5.831633
+       description idf(docFreq=17191, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.07484382
+    description weight(name.default:joh in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.07484382
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.021043312
+      description queryWeight, product of:
+      ----
+       value 7.113312
+       description idf(docFreq=4771, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 3.556656
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 7.113312
+       description idf(docFreq=4771, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.081960134
+    description weight(name.default:john in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.081960134
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.022021022
+      description queryWeight, product of:
+      ----
+       value 7.4438086
+       description idf(docFreq=3428, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 3.7219043
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 7.4438086
+       description idf(docFreq=3428, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.10621464
+    description weight(name.default:johns in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.10621464
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.0250685
+      description queryWeight, product of:
+      ----
+       value 8.473953
+       description idf(docFreq=1223, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 4.2369766
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 8.473953
+       description idf(docFreq=1223, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.11417842
+    description weight(name.default:johnso in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.11417842
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.025991308
+      description queryWeight, product of:
+      ----
+       value 8.7858925
+       description idf(docFreq=895, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 4.3929462
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 8.7858925
+       description idf(docFreq=895, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+    value 0.11417842
+    description weight(name.default:johnson in 166029) [PerFieldSimilarity], result of:
+    ----
+     value 0.11417842
+     description score(doc=166029,freq=1.0), product of:
+     ----
+      value 0.025991308
+      description queryWeight, product of:
+      ----
+       value 8.7858925
+       description idf(docFreq=895, maxDocs=2156145)
+       ----
+       value 0.0029583003
+       description queryNorm
+       ----
+      value 4.3929462
+      description fieldWeight in 166029, product of:
+      ----
+       value 1
+       description tf(freq=1.0), with freq of:
+       ----
+        value 1
+        description termFreq=1.0
+        ----
+       value 8.7858925
+       description idf(docFreq=895, maxDocs=2156145)
+       ----
+       value 0.5
+       description fieldNorm(doc=166029)
+       ----
+ value 0.33333334
+ description coord(1/3)
+ ----
